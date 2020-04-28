@@ -8,7 +8,7 @@
     <div class="col-lg-8 col-lg-offset-2">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Create A New Poll</h3>
+                <h3 class="panel-title">新しい質問の作成</h3>
             </div>
                 
             <form method="POST">
@@ -17,7 +17,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="form-group">
-                                <label for="question">Enter Poll Question</label>
+                                <label for="question">質問を入力してください。</label>
                                 {% render_field form.question class="form-control" rows="3" %}
                             </div>
                         </div>
@@ -26,19 +26,19 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="form-group">
-                                <label for="option1">Option 1</label>
+                                <label for="option1">選択肢 1</label>
                                 {% render_field form.option_one class="form-control" %}
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="form-group">
-                                <label for="option2">Option 2</label>
+                                <label for="option2">選択肢 2</label>
                                 {% render_field form.option_two class="form-control" %}
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="form-group">
-                                <label for="option3">Option 3</label>
+                                <label for="option3">選択肢 3</label>
                                 {% render_field form.option_three class="form-control" %}
                             </div>
                         </div>
@@ -47,7 +47,7 @@
                     <div class="row">
                         <hr />
                         <div class="col-lg-4">
-                            <button type="submit" class="btn btn-info">Submit</button>
+                            <button type="submit" class="btn btn-info">投稿</button>
                         </div>
                     </div>
                 </div>

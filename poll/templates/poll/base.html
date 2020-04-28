@@ -1,7 +1,7 @@
 {% load static %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -24,14 +24,14 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="{% url 'poll:home' %}">Poll Application</a>
+					<a class="navbar-brand" href="{% url 'poll:home' %}">投票Django Webアプリ</a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="{% url 'poll:home' %}">Home</a></li>
-						<li><a href="{% url 'poll:create' %}">Create</a></li>
+						<li><a href="{% url 'poll:home' %}">ホーム</a></li>
+						<li><a href="{% url 'poll:create' %}">投票質問の作成</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div>
